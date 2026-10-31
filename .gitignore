@@ -1,0 +1,25 @@
+# Data never goes in git (it's tens of GB)
+data/
+outputs/
+*.pcd
+*.bag
+*.zip
+*.tar
+*.tar.gz
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+perception_proj-env/
+perception_proj_env/
