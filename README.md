@@ -15,6 +15,8 @@ lunar_beams/              library: file IO, pose interpolation, frames, ring ass
 scripts/download_lusnar.py   fetch lidar + poses only (skips ~92 GB of images)
 scripts/check_frame.py       work out which coordinate frame the points are in
 scripts/downsample.py        assign rings, write downsampled datasets + stats
+scripts/downsample_lidar.py  standalone: write <scene>/LiDAR_<n>/ copies (every k-th beam from the bottom)
+scripts/visualize_lidar.py   plot one frame across beam counts (2D, and 3D with --3d) from LiDAR_<n>/
 tests/                    unit tests + synthetic LuSNAR-style scene generator
 data/                     (git-ignored) raw/ and processed/ data
 outputs/                  (git-ignored) plots, stats CSVs
