@@ -1,0 +1,4 @@
+[2026-11-13 15:37:18,421 INFO test.py line 339 12513] Val result: mIoU/mAcc/allAcc 0.9497/0.9744/0.9959
+[2026-11-13 15:37:18,421 INFO test.py line 345 12513] Class_0 - regolith Result: iou/accuracy 0.9955/0.9980
+[2026-11-13 15:37:18,421 INFO test.py line 345 12513] Class_1 - rock Result: iou/accuracy 0.9769/0.9832
+[2026-11-13 15:37:18,421 INFO test.py line 345 12513] Class_2 - crater Result: iou/accuracy 0.8768/0.9421
