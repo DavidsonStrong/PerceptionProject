@@ -1,6 +1,9 @@
 # Data never goes in git (it's tens of GB)
 data/
 outputs/
+# LuSNAR scenes unpacked outside data/, and their plots
+Moon_*/
+lidar_viz/
 *.pcd
 *.bag
 *.zip
